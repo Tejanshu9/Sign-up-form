@@ -1,7 +1,7 @@
 # 📝 Simple Form Layout  
 
 ## 📌 Preview  
-![Preview Screenshot](./screenshot.png)  
+  
 _A simple and responsive form layout with proper labels and input fields aligned vertically for a clean look._
 
 ---
