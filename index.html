@@ -53,24 +53,29 @@
 
                             <div>
                                 <label for="pass">Password</label>
-                                <input type="password" id="pass" name="Password">
+                                <input type="password" id="pass" name="Password" required
+                                    pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[\W_]).{8,}"
+                                    title="Must be at least 8 characters, include uppercase, lowercase, number, and special character">
                             </div>
                         </div>
 
                         <div class="form-right">
                             <div>
                                 <label for="last-name">LAST NAME</label>
-                                <input type="text" id="first-name" name="first-name" placeholder="Buttler">
+                                <input type="text" id="last-name" name="last-name" placeholder="Buttler">
                             </div>
 
                             <div>
                                 <label for="phone">Phone Number</label>
-                                <input type="tel" id="phone" name="phonenumber" pattern="[0-9]{10}">
+                                <input type="tel" id="phone" name="phonenumber" pattern="[0-9]{10}"
+                                    title="Enter a 10-digit phone number without spaces or dashes">
                             </div>
 
                             <div>
                                 <label for="cpass">Confirm Password</label>
-                                <input type="password" id="cpass" name="Confirmed Password">
+                                <input type="password" id="cpass" name="Confirmed Password" required
+                                    pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[\W_]).{8,}"
+                                    title="Must be at least 8 characters, include uppercase, lowercase, number, and special character">
                             </div>
 
                         </div>
@@ -87,4 +92,4 @@
     </div>
 </body>
 
-</html>`
+</html>
