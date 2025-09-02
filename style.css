@@ -1,0 +1,151 @@
+@font-face {
+    font-family: 'my-font';
+    src: url('fonts/Norse-Bold.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.site {
+    display: flex;
+}
+
+h1 {
+    font-family: my-font, sans-serif;
+    font-size: 48px;
+    color: white;
+    margin: 0;
+    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.site-banner {
+    background-image: url('./img/shana-van-roosbroek-z5mqSyM_iVE-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;   
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.site-banner-heading {                                     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background: rgba(0, 0, 0, 0.5);  
+    padding: 15px 25px;
+    width: 100%;  
+    margin-bottom: 12rem;
+}
+
+.logo {
+    height: 60px;  
+    width: auto;     
+}
+
+footer {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+}
+
+a {
+    color: whitesmoke
+}
+
+.content {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    font-weight: bold;
+}
+
+.content-heading {
+    padding:100px 0px 30px 70px;
+    width: 60%;
+    font-size:large;
+}
+
+form{
+    background: whitesmoke;
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 10px 50px 20px 70px ;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+fieldset{
+    border: none;
+    padding: 0;
+    display: flex;
+    gap: 50px;
+    margin-top: 40px;
+}
+.form-left >div ,.form-right > div {
+    padding-bottom: 15px;
+}
+
+label, input {
+  display: block;
+  margin-bottom: 8px; /* adds space between them */
+}
+
+input{
+    width: 200px;
+    margin-top: 4px;
+    border-radius: 3px;
+    padding: 3px;
+    border: 1.5px solid #E5E7EB;
+}
+
+input:focus{
+    border-color: #3c6ac6;
+    outline: none;
+    box-shadow: 1px 1px grey;
+}
+
+input:invalid {
+    border-color:red;
+}
+
+.form-text{
+    letter-spacing: normal;
+    font-size: 20px;
+    font-weight: 600;
+}
+.submit-button {
+    padding: 10px 50px 0px 0px ;
+}
+
+button{
+    background: #596D48;
+    color: #eee;
+    cursor: pointer;
+    font-weight: 600;
+    margin-left: 30px;
+    padding: 10px 30px;
+    border-radius: 8px;
+    border: 0;
+}
+span{
+    color: #596D48;
+}
+.log-in{
+    padding: 30px 30px;
+}
